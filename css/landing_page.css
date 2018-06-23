@@ -1,0 +1,106 @@
+html, body {
+	margin: 0;
+	padding: 0px
+	font-size: 12px;
+}
+.navbar{
+	height: 60px;
+	width: 100%
+	background-color: none;
+	position: static;
+}	
+.navbar img{
+	height: 40px;
+	margin-left: 147px;
+	
+}
+ol{
+	list-style-type: none;
+	margin-right: 147px;
+}
+li{
+	float: right;
+	display: inline;
+	padding-left: 50px;
+}
+h2{
+	clear: both;
+}
+.box1{
+	padding: 20px 0; 
+	background-image: url("../images/bg.jpeg"); 
+
+}
+.box1 img{
+	height: 40px;
+	float: left;
+}
+.box1, .header-text{
+	text-align: center;
+	color: white;
+}
+.box1 .btn{
+	color: white;
+	font-size: 15px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border:none;
+}
+.box1 .blue{
+	background-color: rgb(23, 157, 255);
+}
+.box1 .green{
+	background-color: rgb(101, 166, 92);
+}
+.box2 {
+	text-align: center;
+	width: 70%;
+	margin: 0px auto;
+}
+.box2 h2 {
+	text-transform: uppercase;
+	}
+.box2 img{
+	width: 70%;
+			}
+.box3{
+	background-color: rgb(223, 223, 223);
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+	padding:50px 0px;
+	border-color: gray;
+}
+.box3 .blue{
+	background-color: rgb(23, 157, 255);
+}
+.box3 .btn {
+	color: white;
+	font-size: 15px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border:none;
+}
+.box4{
+	position: relative;
+	padding-bottom: 41px;
+}
+.par {
+	width: 35%;
+	display: inline-block;
+	position: absolute;
+	top: 15px;
+}
+
+.par-1{
+	padding-left: 20%;
+	position: relative;
+}
+.box5 {
+	height: 50px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding: 10px;
+	padding-left: 100px;
+}
