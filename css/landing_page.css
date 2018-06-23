@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 html, body {
 	margin: 0;
 	padding: 0px
 	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
 }
 .navbar{
 	height: 60px;
@@ -26,6 +28,11 @@ li{
 h2{
 	clear: both;
 }
+.header-text{
+	margin-bottom: 25px;
+	font-size: 27px;
+}
+
 .box1{
 	padding: 20px 0; 
 	background-image: url("../images/bg.jpeg"); 
@@ -38,6 +45,7 @@ h2{
 .box1, .header-text{
 	text-align: center;
 	color: white;
+
 }
 .box1 .btn{
 	color: white;
@@ -67,7 +75,7 @@ h2{
 .box3{
 	background-color: rgb(239, 239, 239);
 	width: 100%;
-	margin: 0px auto;
+	margin: -5px auto;
 	text-align: center;
 	padding:50px 0px;
 	border-bottom: solid;
